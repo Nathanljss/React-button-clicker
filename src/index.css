@@ -1,0 +1,59 @@
+.Counter {
+  align-self: center;
+}
+
+.BigRed {
+  border-radius: 100%;
+  border: solid;
+  width: 500px;
+  height: 500px;
+  padding: 50px;
+  background-color: red;
+  box-shadow: 0 20px #3a3a3a;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: large;
+  justify-self: center;
+}
+
+.BigRed:active {
+  box-shadow: 0 10px #3a3a3a;
+  transform: translateY(10px);
+}
+
+.upgradelist {
+  margin-top: 60px;
+}
+
+body {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+.Mind {
+  margin: 5px;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+
+.ClickUp {
+  margin: 5px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.Manager {
+  margin: 5px;
+  margin-left: 45px;
+  border-radius: 5px;
+}
